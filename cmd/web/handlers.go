@@ -12,9 +12,9 @@ func home(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Server", "Go")
 
 	files := []string{
-		"./ui/html/base.html",
-		"./ui/html/partials/nav.html",
-		"./ui/html/pages/home.html",
+		"../../ui/html/base.html",
+		"../../ui/html/partials/nav.html",
+		"../../ui/html/pages/home.html",
 	}
 
 	ts, err := template.ParseFiles(files...)
