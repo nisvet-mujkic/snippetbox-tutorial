@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"snippetbox.nisvetmujkic.com/cmd/internal/models"
+	"snippetbox.nisvetmujkic.com/internal/models"
 )
 
 type templateData struct {

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"snippetbox.nisvetmujkic.com/cmd/internal/models"
-	"snippetbox.nisvetmujkic.com/cmd/internal/validator"
+	"snippetbox.nisvetmujkic.com/internal/models"
+	"snippetbox.nisvetmujkic.com/internal/validator"
 )
 
 type snipetCreateForm struct {
